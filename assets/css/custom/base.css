@@ -1,0 +1,24 @@
+body {
+	font-family: "Inter", sans-serif;
+}
+
+h1,
+.h1 {
+	@apply font-sans font-bold text-3xl;
+	@screen md {
+		@apply text-4xl;
+	}
+}
+
+h2,
+.h2 {
+	@apply font-sans font-bold text-xl;
+	@screen md {
+		@apply text-3xl;
+	}
+}
+
+section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
