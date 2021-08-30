@@ -16,18 +16,21 @@
 						</button>
 					</div>
 					<div class="flex-shrink-0 flex items-center w">
-						<img class="block h-8 w-auto" src="@/assets/images/logo.svg" alt="Logo" />
+						<nuxt-link to="/">
+							<img class="block h-8 w-auto" src="@/assets/images/logo.svg" alt="Logo" />
+						</nuxt-link>
 					</div>
 					<div class="hidden md:flex justify-center md:space-x-8 w-full items-center">
-						<a href="#" class="inline-flex items-center px-1 pt-1">Channels</a>
-						<a href="#" class="inline-flex items-center px-1 pt-1">Benefits</a>
-						<a href="#" class="inline-flex items-center px-1 pt-1">FAQ</a>
+						<a href="#" v-scroll-to="'#channels'" class="inline-flex items-center px-1 pt-1">Channels</a>
+						<a href="#" v-scroll-to="'#benefits'" class="inline-flex items-center px-1 pt-1">Benefits</a>
+						<a href="#" v-scroll-to="'#howto'" class="inline-flex items-center px-1 pt-1">How dose it work?</a>
+						<a href="#" v-scroll-to="'#faq'" class="inline-flex items-center px-1 pt-1">FAQ</a>
 					</div>
 				</div>
 
 				<div class="flex items-center">
 					<div class="flex-shrink-0">
-						<button type="button" class="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-red shadow-sm hover:bg-red focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
+						<button v-scroll-to="'#submit'" type="button" class="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-red shadow-sm hover:bg-red focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
 							<!-- Heroicon name: solid/plus -->
 							<span>Submit</span>
 							<svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

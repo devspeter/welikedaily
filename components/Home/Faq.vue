@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section id="faq">
 		<div class="container">
 			<div class="flex flex-col items-center justify-center w-full">
 				<h2>Faq</h2>

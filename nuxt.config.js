@@ -14,6 +14,12 @@ export default {
 			{ rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@200;400,600;800&display=swap" },
 			{ rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&display=swap" },
 			{ src: "https://cdn.polyfill.io/v2/polyfill.js?features=fetch" }
+		],
+		script: [
+			{
+				src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+				defer: true
+			}
 		]
 	},
 
@@ -60,7 +66,12 @@ export default {
 	},
 
 	// Modules: https://go.nuxtjs.dev/config-modules
-	modules: ["@nuxtjs/sitemap"],
+	modules: ["@nuxtjs/sitemap", "@nuxtjs/axios", "@nuxtjs/robots", ["vue-scrollto/nuxt", { duration: 900 }]],
+
+	robots: {
+		UserAgent: "*",
+		Disallow: "/"
+	},
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
@@ -76,6 +87,9 @@ export default {
 				exclude: /node_modules/,
 				use: ["raw-loader"]
 			})
+		},
+		generate: {
+			fallback: "404.html"
 		}
 	}
 }

@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section id="benefits">
 		<div class="container">
 			<div class="flex flex-col items-center justify-center w-full">
 				<p>Why</p>

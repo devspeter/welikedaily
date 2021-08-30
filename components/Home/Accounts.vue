@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section id="channels">
 		<div class="container">
 			<div class="flex justify-center w-full space-x-8">
 				<a href="https://www.instagram.com/welikeuidesign/" target="_blank"> welikeuidesign</a>
@@ -13,7 +13,10 @@
 </template>
 
 <script>
-export default {}
+const axios = require("axios")
+export default {
+	mounted() {}
+}
 </script>
 
 <style lang="postcss" scoped></style>

@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section id="submit">
 		<div class="flex flex-col items-center justify-center w-full mb-20">
 			<h2>Submit your work!</h2>
 		</div>
