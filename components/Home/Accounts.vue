@@ -1,12 +1,16 @@
 <template>
 	<section id="channels">
 		<div class="container">
-			<div class="flex justify-center w-full space-x-8">
-				<a href="https://www.instagram.com/welikeuidesign/" target="_blank"> welikeuidesign</a>
-				<a href="https://www.instagram.com/welikewebgl/" target="_blank">welikewebgl</a>
-				<a href="https://www.instagram.com/welikemotiondesign/" target="_blank">welikemotiondesign</a>
-				<a href="https://www.instagram.com/welikethreedy/" target="_blank">welikethreedy</a>
-				<a href="https://www.instagram.com/welikeillustration/" target="_blank">welikeillustration</a>
+			<div class="flex justify-between w-full">
+				<a href="https://www.instagram.com/welikeuidesign/" class="w-1/5" target="_blank">
+					<div class="h-48 bg-gray-100 flex justify-center items-center">
+						<h3>welikeuidesign</h3>
+					</div>
+				</a>
+				<a href="https://www.instagram.com/welikewebgl/" class="w-1/5" target="_blank">welikewebgl</a>
+				<a href="https://www.instagram.com/welikemotiondesign/" class="w-1/5" target="_blank">welikemotiondesign</a>
+				<a href="https://www.instagram.com/welikethreedy/" class="w-1/5" target="_blank">welikethreedy</a>
+				<a href="https://www.instagram.com/welikeillustration/" class="w-1/5" target="_blank">welikeillustration</a>
 			</div>
 		</div>
 	</section>

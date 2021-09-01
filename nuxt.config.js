@@ -4,7 +4,7 @@ export default {
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: "welikedaily",
+		title: "Share your work with other creatives and potential clients - Welikedaily",
 		htmlAttrs: {
 			lang: "en"
 		},
