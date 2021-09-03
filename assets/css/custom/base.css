@@ -4,7 +4,7 @@ body {
 
 h1,
 .h1 {
-	@apply font-sans font-bold text-3xl;
+	@apply font-sans font-bold text-4xl uppercase;
 	@screen md {
 		@apply text-4xl;
 	}
@@ -12,10 +12,17 @@ h1,
 
 h2,
 .h2 {
-	@apply font-sans font-bold text-xl;
+	@apply font-sans font-bold text-3xl;
 	@screen md {
 		@apply text-3xl;
 	}
+}
+
+a {
+	@apply font-sans font-semibold;
+}
+p {
+	@apply font-head text-neutral-light text-lg;
 }
 
 section {

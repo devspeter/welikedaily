@@ -16,7 +16,7 @@
 						</a>
 					</div>
 				</nav>
-				<p class="mt-8 text-center text-base text-gray-400">&copy; {{ new Date().getFullYear() }} Welikedaily | Build in Munich GER</p>
+				<p class="mt-8 text-center text-base text-gray-400">&copy; {{ new Date().getFullYear() }} Welikedaily | Build in Munich Germany</p>
 			</div>
 		</footer>
 	</div>

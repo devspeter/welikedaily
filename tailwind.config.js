@@ -36,12 +36,13 @@ module.exports = {
 			"12xl": "10rem"
 		},
 		fontFamily: {
-			sans: ["Inter, sans-serif", ...defaultTheme.fontFamily.sans],
-			head: ["Khula, sans-serif", ...defaultTheme.fontFamily.sans]
+			sans: ["Encode Sans, sans-serif", ...defaultTheme.fontFamily.sans],
+			head: ["Roboto, sans-serif", ...defaultTheme.fontFamily.sans]
 		},
 		fontWeight: {
 			normal: 400,
-			bold: 700,
+			semibold: 600,
+			bold: 800,
 			extrabold: 800
 		},
 		extend: {
@@ -54,7 +55,7 @@ module.exports = {
 				neutral: {
 					dark: "#131313",
 					default: "#414042",
-					light: "#707070"
+					light: "#7c7c7c"
 				}
 			},
 			margin: {
