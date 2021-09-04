@@ -1,7 +1,9 @@
 <template>
 	<section id="submit">
 		<div class="flex flex-col items-center justify-center w-full mb-20">
-			<h2>Submit your work!</h2>
+			<p>Zero Cost Sharing Plan!</p>
+			<h2>Ready to share your work?</h2>
+			<p class="mt-2">Submit your work now and we will get back to you when your work is selected</p>
 		</div>
 		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 			<form>
