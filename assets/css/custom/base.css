@@ -4,7 +4,7 @@ body {
 
 h1,
 .h1 {
-	@apply font-sans font-bold text-6xl uppercase;
+	@apply font-sans font-bold text-6xl uppercase leading-none;
 	@screen md {
 		@apply text-4xl;
 	}
@@ -20,12 +20,12 @@ h2,
 
 h3,
 .h3 {
-	@apply font-sans font-bold text-3xl;
+	@apply font-sans font-bold text-2xl;
 }
 
 h4,
 .h4 {
-	@apply font-sans font-bold text-lg text-white;
+	@apply font-head font-bold text-lg text-white;
 }
 
 a {

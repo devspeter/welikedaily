@@ -1,5 +1,5 @@
 <template>
-	<section id="channels">
+	<section id="channels" class="bg-gray-50">
 		<div class="container">
 			<div class="text-center mb-10">
 				<h2>Share by</h2>
