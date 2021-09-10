@@ -41,15 +41,15 @@ export default {
 			faqs: [
 				{
 					question: "What happens after I’ve submitted my work?",
-					answer: ""
+					answer: "well"
 				},
 				{
 					question: "How should I deliver my project?",
-					answer: ""
+					answer: "well"
 				},
 				{
 					question: "Which Instagram accounts do you manage?",
-					answer: ""
+					answer: "well"
 				}
 			]
 		}

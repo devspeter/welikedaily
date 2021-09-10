@@ -50,13 +50,6 @@
 	</section>
 </template>
 
-<script>
-const axios = require("axios")
-export default {
-	mounted() {}
-}
-</script>
-
 <style lang="postcss" scoped>
 .welike-box {
 	&-1 {
