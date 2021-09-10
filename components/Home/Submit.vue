@@ -8,39 +8,39 @@
 			<form name="contact" method="POST" data-netlify="true">
 				<div class="space-y-5">
 					<div class="">
-						<label for="name" class="block text-xs text-lg text-gray-900">Name</label>
+						<label for="fullname" class="block text-lg text-gray-900">Name</label>
 						<div class="mt-2">
-							<input type="text" name="name" id="name" class="block w-full border border-gray-300 rounded-md px-3 py-2 text-gray-900 placeholder-gray-500" placeholder="Jane Doe" />
+							<input type="text" name="fullname" id="fullname" class="block w-full border border-gray-300 rounded-md px-3 py-2 text-gray-900 placeholder-gray-500" placeholder="Jane Doe" />
 						</div>
 					</div>
 
 					<div>
-						<label for="profile" class="block text-sm text-lg text-gray-700">Email</label>
+						<label for="instaemail" class="block text-lg text-gray-700">Email</label>
 						<div class="mt-2">
-							<input type="text" name="email" id="email" class="border border-gray-300 rounded-md px-3 py-2 block w-full" placeholder="you@example.com" />
+							<input type="email" name="instaemail" id="instaemail" class="border border-gray-300 rounded-md px-3 py-2 block w-full" placeholder="you@example.com" />
 						</div>
 					</div>
 
 					<div>
-						<label for="email" class="block text-sm text-lg text-gray-700">Instagram profile</label>
+						<label for="instaprofile" class="block text-lg text-gray-700">Instagram profile</label>
 						<div class="mt-2">
-							<input type="text" name="profile" id="profile" class="block w-full border border-gray-300  px-3 py-2 rounded-md" placeholder="@welikedaily" />
+							<input type="text" name="instaprofile" id="instaprofile" class="block w-full border border-gray-300  px-3 py-2 rounded-md" placeholder="@welikedaily" />
 						</div>
 					</div>
 
 					<div>
-						<label for="company-website" class="block text-sm text-lg text-gray-700">
+						<label for="company-website" class="block text-lg text-gray-700">
 							Project Link
 						</label>
 						<div class="mt-2 flex">
 							<span class="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500">
 								https://
 							</span>
-							<input type="text" name="company-website" id="company-website" class="border border-gray-300 rounded-md flex-1 min-w-0 block w-full px-3 py-2  rounded-r-md" placeholder="www.instagram.com/p/CID-e9ag25F/" />
+							<input type="text" name="company-website" id="company-website" class="border border-gray-300 rounded-r-md flex-1 min-w-0 block w-full px-3 py-2" placeholder="www.instagram.com/p/CID-e9ag25F/" />
 						</div>
 					</div>
 
-					<label class="mt-3 block text-sm text-lg text-gray-700">
+					<label class="mt-3 block text-lg text-gray-700">
 						Select Channel
 					</label>
 					<div class="">
