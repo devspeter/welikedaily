@@ -37,7 +37,7 @@ module.exports = {
 		},
 		fontFamily: {
 			sans: ["Encode Sans, sans-serif", ...defaultTheme.fontFamily.sans],
-			head: ["Roboto, sans-serif", ...defaultTheme.fontFamily.sans]
+			head: ["Manrope, sans-serif", ...defaultTheme.fontFamily.sans]
 		},
 		fontWeight: {
 			normal: 400,

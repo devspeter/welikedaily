@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<!-- This example requires Tailwind CSS v2.0+ -->
-		<footer class="bg-white">
+		<footer class="bg-gray-50">
 			<div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
 				<nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
 					<div class="px-5 py-2">

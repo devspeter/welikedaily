@@ -32,7 +32,7 @@ a {
 	@apply font-sans font-semibold;
 }
 p {
-	@apply font-head text-neutral-light text-xl;
+	@apply font-head text-neutral-light text-2xl;
 }
 
 section {
