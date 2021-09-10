@@ -48,7 +48,7 @@
 							<div class="space-y-4">
 								<div class="md:flex  space-x-5">
 									<label @click="selectChannel(1)" class="md:w-1/2 relative block rounded-lg border border-gray-300 bg-white text-black px-6 py-3 cursor-pointer sm:flex sm:justify-between opacity-50 transition duration-500" :class="{ 'opacity-100 bg-red': activeChannel == 1 }">
-										<input type="radio" name="socialchannels" v-model="socialchannels" value="welikeuidesign" class="sr-only" aria-labelledby="welikeuidesign" aria-describedby="welikeuidesign" />
+										<input type="radio" name="socialchannels" v-model="socialchannel" value="welikeuidesign" class="sr-only" aria-labelledby="welikeuidesign" aria-describedby="welikeuidesign" />
 										<div class="flex items-center">
 											<div class="text-sm">
 												<p id="welikeuidesign" class="text-lg transition duration-500" :class="{ 'text-white': activeChannel == 1 }">
@@ -59,7 +59,7 @@
 									</label>
 
 									<label @click="selectChannel(2)" class="md:w-1/2 relative block rounded-lg border border-gray-300 bg-white px-6 py-3 cursor-pointer sm:flex sm:justify-between opacity-50 transition duration-500" :class="{ 'opacity-100 bg-blue': activeChannel == 2 }">
-										<input type="radio" name="socialchannels" v-model="socialchannels" value="welikewebgl" class="sr-only" aria-labelledby="welikewebgl" aria-describedby="welikewebgl" />
+										<input type="radio" name="socialchannels" v-model="socialchannel" value="welikewebgl" class="sr-only" aria-labelledby="welikewebgl" aria-describedby="welikewebgl" />
 										<div class="flex items-center">
 											<div class="text-sm">
 												<p id="welikewebgl" class="text-lg transition duration-500" :class="{ 'text-white': activeChannel == 2 }">
@@ -71,7 +71,7 @@
 								</div>
 								<div class="md:flex space-x-5">
 									<label @click="selectChannel(3)" class="md:w-1/2  relative block rounded-lg border border-gray-300 bg-white px-6 py-3 cursor-pointer sm:flex sm:justify-between opacity-50 transition duration-500" :class="{ 'opacity-100 bg-neutral-dark': activeChannel == 3 }">
-										<input type="radio" name="socialchannels" v-model="socialchannels" value="welikemotiondesign" class="sr-only" aria-labelledby="welikemotiondesign" aria-describedby="welikemotiondesign" />
+										<input type="radio" name="socialchannels" v-model="socialchannel" value="welikemotiondesign" class="sr-only" aria-labelledby="welikemotiondesign" aria-describedby="welikemotiondesign" />
 										<div class="flex items-center">
 											<div class="text-sm">
 												<p id="welikemotiondesign" class="text-lg transition duration-500" :class="{ 'text-white': activeChannel == 3 }">
@@ -82,7 +82,7 @@
 									</label>
 
 									<label @click="selectChannel(4)" class="md:w-1/2 relative block rounded-lg border border-gray-300 bg-white px-6 py-3 cursor-pointer sm:flex sm:justify-between opacity-50 transition duration-500" :class="{ 'opacity-100 bg-purple': activeChannel == 4 }">
-										<input type="radio" name="socialchannels" v-model="socialchannels" value="welikethreedy" class="sr-only" aria-labelledby="welikethreedy" aria-describedby="welikethreedy" />
+										<input type="radio" name="socialchannels" v-model="socialchannel" value="welikethreedy" class="sr-only" aria-labelledby="welikethreedy" aria-describedby="welikethreedy" />
 										<div class="flex items-center">
 											<div class="text-sm">
 												<p id="welikethreedy" class="text-lg transition duration-500" :class="{ 'text-white': activeChannel == 4 }">
@@ -94,7 +94,7 @@
 								</div>
 								<div class="md:flex space-x-5">
 									<label @click="selectChannel(5)" class="md:w-1/2  relative block rounded-lg border border-gray-300 bg-white px-6 py-3 cursor-pointer sm:flex sm:justify-between opacity-50 transition duration-500" :class="{ 'opacity-100 bg-orange': activeChannel == 5 }">
-										<input type="radio" name="socialchannels" v-model="socialchannels" value="welikeillustration" class="sr-only" aria-labelledby="welikeillustration" aria-describedby="welikeillustration" />
+										<input type="radio" name="socialchannels" v-model="socialchannel" value="welikeillustration" class="sr-only" aria-labelledby="welikeillustration" aria-describedby="welikeillustration" />
 										<div class="flex items-center">
 											<div class="text-sm">
 												<p id="welikeillustration" class="text-lg transition duration-500" :class="{ 'text-white': activeChannel == 5 }">
@@ -122,7 +122,7 @@ export default {
 	data() {
 		return {
 			activeChannel: 1,
-			socialchannels: "welikeuidesign"
+			socialchannel: "welikeuidesign"
 		}
 	},
 	methods: {
