@@ -8,10 +8,3 @@
 		<Faq />
 	</div>
 </template>
-
-<script>
-import Benefits from "../components/Home/Benefits.vue"
-export default {
-	components: { Benefits }
-}
-</script>
