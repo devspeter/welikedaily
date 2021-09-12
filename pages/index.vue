@@ -2,9 +2,9 @@
 	<div>
 		<Stage />
 		<Accounts />
+		<Faq />
 		<Benefits />
 		<Howdoesitwork />
 		<!-- <Submit /> -->
-		<Faq />
 	</div>
 </template>
