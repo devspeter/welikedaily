@@ -4,7 +4,7 @@ export default {
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: "Share your work with other creatives and potential clients - Welikedaily",
+		title: "Welikedaily content share your work with other creatives and potential clients",
 		htmlAttrs: {
 			lang: "en"
 		},
@@ -14,12 +14,7 @@ export default {
 			{ rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;400;600;800&family=Manrope:wght@400;700&display=swap" },
 			{ src: "https://cdn.polyfill.io/v2/polyfill.js?features=fetch" }
 		],
-		script: [
-			{
-				src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
-				defer: true
-			}
-		]
+		script: []
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css

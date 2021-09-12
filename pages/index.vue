@@ -1,10 +1,10 @@
 <template>
 	<div>
 		<!-- <Stage /> -->
-		<Faq />
 		<!-- <Accounts />
 		<Benefits /> -->
-		<!-- <Howdoesitwork /> -->
-		<!-- <Submit /> -->
+		<Howdoesitwork />
+		<Submit />
+		<Faq />
 	</div>
 </template>
