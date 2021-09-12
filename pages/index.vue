@@ -4,7 +4,7 @@
 		<Accounts />
 		<Benefits />
 		<Howdoesitwork />
-		<Submit />
+		<!-- <Submit /> -->
 		<Faq />
 	</div>
 </template>
