@@ -1,9 +1,9 @@
 <template>
 	<div>
-		<Stage />
+		<!-- <Stage /> -->
 		<Faq />
-		<Accounts />
-		<Benefits />
+		<!-- <Accounts />
+		<Benefits /> -->
 		<!-- <Howdoesitwork /> -->
 		<!-- <Submit /> -->
 	</div>
