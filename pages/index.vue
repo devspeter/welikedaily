@@ -3,7 +3,7 @@
 		<!-- <Stage /> -->
 		<!-- <Accounts />
 		<Benefits /> -->
-		<Howdoesitwork />
+		<!-- <Howdoesitwork /> -->
 		<Submit />
 		<Faq />
 	</div>
