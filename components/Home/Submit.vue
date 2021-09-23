@@ -5,7 +5,7 @@
 			<p class="mt-2">Submit your work now and we will get back to you when your work is selected.</p>
 		</div>
 		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-			<form name="contact" method="POST" data-netlify="true">
+			<form accept-charset="UTF-8" method="POST" action="https://www.formbackend.com/f/aeca0b326c040d66">
 				<div class="space-y-5">
 					<div class="">
 						<label for="fullname" class="block text-lg text-gray-900">Name</label>
@@ -90,19 +90,6 @@
 									</div>
 								</div>
 							</label>
-						</div>
-						<div class="md:flex space-x-5">
-							<label @click="selectChannel(5)" class="md:w-1/2  relative block rounded-lg border border-gray-300 bg-white px-6 py-3 cursor-pointer sm:flex sm:justify-between opacity-50 transition duration-500" :class="{ 'opacity-100 bg-orange': activeChannel == 5 }">
-								<input type="radio" name="socialchannels" v-model="socialChannel" value="welikeillustration" class="sr-only" aria-labelledby="welikeillustration" aria-describedby="welikeillustration" />
-								<div class="flex items-center">
-									<div class="text-sm">
-										<p id="welikeillustration" class="text-lg transition duration-500" :class="{ 'text-white': activeChannel == 5 }">
-											@welikeillustration
-										</p>
-									</div>
-								</div>
-							</label>
-							<div class="md:w-1/2"></div>
 						</div>
 					</div>
 				</div>

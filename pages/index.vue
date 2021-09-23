@@ -3,8 +3,8 @@
 		<Stage />
 		<Accounts />
 		<Benefits />
-		<Howdoesitwork />
-		<!-- <Submit /> -->
+		<!-- <Howdoesitwork /> -->
+		<Submit />
 		<Faq />
 	</div>
 </template>

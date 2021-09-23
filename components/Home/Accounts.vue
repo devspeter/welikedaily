@@ -5,36 +5,30 @@
 				<h2>Share by</h2>
 			</div>
 			<div class="flex justify-between w-full max-w-6xl m-auto space-x-5">
-				<a href="https://www.instagram.com/welikeuidesign/" class="w-1/5 welike-box-1 rounded-md" target="_blank">
+				<a href="https://www.instagram.com/welikeuidesign/" class="w-1/4 welike-box-1 rounded-md" target="_blank">
 					<div class="h-64 bg-red text-white rounded-md flex flex-col justify-center items-center">
 						<img class="w-24 h-auto" src="@/assets/images/welikeuidesign.svg" />
 						<p class="h4">@welikeuidesign</p>
 					</div>
 				</a>
-				<a href="https://www.instagram.com/welikewebgl/" class="w-1/5 welike-box-2  rounded-md" target="_blank">
+				<a href="https://www.instagram.com/welikewebgl/" class="w-1/4 welike-box-2  rounded-md" target="_blank">
 					<div class="h-64 bg-blue text-white rounded-md flex flex-col justify-center items-center">
 						<img class="w-24 h-auto" src="@/assets/images/welikewebgl.svg" />
 						<p class="h4">@welikewebgl</p>
 					</div>
 				</a>
-				<a href="https://www.instagram.com/welikemotiondesign/" class="w-1/5 welike-box-3  rounded-md" target="_blank"
+				<a href="https://www.instagram.com/welikemotiondesign/" class="w-1/4 welike-box-3  rounded-md" target="_blank"
 					><div class="h-64 bg-black text-white rounded-md flex flex-col justify-center items-center">
 						<img class="w-24 h-auto" src="@/assets/images/welikemotiondesign.svg" />
 						<p class="h4">@welikemotiondesign</p>
 					</div>
 				</a>
-				<a href="https://www.instagram.com/welikethreedy/" class="w-1/5 welike-box-4  rounded-md" target="_blank">
+				<a href="https://www.instagram.com/welikethreedy/" class="w-1/4 welike-box-4  rounded-md" target="_blank">
 					<div class="h-64 bg-purple text-white rounded-md flex flex-col justify-center items-center">
 						<img class="w-24 h-auto" src="@/assets/images/welike3d.svg" />
 						<p class="h4">@welikethreedy</p>
 					</div>
 				</a>
-				<a href="https://www.instagram.com/welikeillustration/" class="w-1/5 welike-box-5 rounded-md" target="_blank"
-					><div class="h-64 bg-orange text-white rounded-md flex flex-col justify-center items-center">
-						<img class="w-24 h-auto" src="@/assets/images/welikeillustration.svg" />
-						<p class="h4">@welikeillustration</p>
-					</div></a
-				>
 			</div>
 			<div class="flex justify-center">
 				<div class="btn">
