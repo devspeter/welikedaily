@@ -74,12 +74,5 @@
 			box-shadow: 0 10px 50px rgba(166, 133, 226, 0.3);
 		}
 	}
-	&-5 {
-		transition: all 0.2s ease-in-out;
-		&:hover {
-			transform: translateY(-4px);
-			box-shadow: 0 10px 50px rgba(251, 198, 164, 0.3);
-		}
-	}
 }
 </style>

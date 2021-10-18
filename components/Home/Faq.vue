@@ -69,14 +69,12 @@ export default {
 		transform: rotate(180deg);
 	}
 }
+
 .faq {
 	opacity: 0;
 	max-height: 0px;
 	overflow-y: hidden;
 	transition: all 0.6s ease-out;
-}
-
-.faq {
 	&.active {
 		opacity: 1;
 		max-height: 1000px;
