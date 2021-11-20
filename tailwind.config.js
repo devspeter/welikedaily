@@ -36,8 +36,9 @@ module.exports = {
 			"12xl": "10rem"
 		},
 		fontFamily: {
-			sans: ["Encode Sans, sans-serif", ...defaultTheme.fontFamily.sans],
-			head: ["Manrope, sans-serif", ...defaultTheme.fontFamily.sans]
+			poppins: ["Poppins, sans-serif", ...defaultTheme.fontFamily.sans],
+			semi: ["Poppinssemi, sans-serif", ...defaultTheme.fontFamily.sans],
+			inter: ["Inter, sans-serif", ...defaultTheme.fontFamily.sans]
 		},
 		fontWeight: {
 			normal: 400,

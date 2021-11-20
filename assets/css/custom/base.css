@@ -1,24 +1,35 @@
+@font-face {
+	font-family: "Poppinssemi";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("../../fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	src: url("../../fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("../../fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+}
+
 @layer base {
 	body {
 		font-family: "Inter", sans-serif;
-		/* &:after {
-			content: "";
-			pointer-events: none;
-			z-index: 0;
-			width: 100vw;
-			height: 100vh;
-			position: fixed;
-			top: 0;
-			left: 0;
-			background-image: url(../assets/images/grain.png);
-			background-size: auto;
-			opacity: 0.5;
-		} */
 	}
 
 	h1,
 	.h1 {
-		@apply font-sans font-bold text-6xl uppercase leading-none;
+		@apply font-poppins font-bold text-6xl uppercase leading-none;
 		@screen md {
 			@apply text-4xl;
 		}
@@ -26,7 +37,7 @@
 
 	h2,
 	.h2 {
-		@apply font-sans font-bold text-4xl;
+		@apply font-semi font-semibold text-4xl;
 		@screen md {
 			@apply text-3xl;
 		}
@@ -34,19 +45,16 @@
 
 	h3,
 	.h3 {
-		@apply font-sans font-bold text-2xl;
+		@apply font-semi font-semibold text-2xl;
 	}
 
 	h4,
 	.h4 {
-		@apply font-head font-bold text-lg text-white;
+		@apply font-inter text-lg text-white;
 	}
 
-	a {
-		@apply font-sans font-semibold;
-	}
 	p {
-		@apply font-head text-neutral-light text-2xl;
+		@apply font-inter text-neutral-light text-2xl;
 	}
 
 	section {
