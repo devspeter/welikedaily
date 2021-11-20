@@ -1,6 +1,6 @@
 export default {
 	// Target: https://go.nuxtjs.dev/config-target
-	target: "static",
+	// target: "static",
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
@@ -9,11 +9,7 @@ export default {
 			lang: "en"
 		},
 		meta: [{ charset: "utf-8" }, { name: "viewport", content: "width=device-width, initial-scale=1" }, { hid: "description", name: "description", content: "" }, { name: "format-detection", content: "telephone=no" }],
-		link: [
-			{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-			{ rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;400;600;800&family=Manrope:wght@400;700&display=swap" },
-			{ src: "https://cdn.polyfill.io/v2/polyfill.js?features=fetch" }
-		],
+		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }, { src: "https://cdn.polyfill.io/v2/polyfill.js?features=fetch" }],
 		script: []
 	},
 
@@ -31,7 +27,8 @@ export default {
 		// https://go.nuxtjs.dev/tailwindcss
 		"postcss-import",
 		"@nuxtjs/tailwindcss",
-		"postcss-nested"
+		"postcss-nested",
+		"nuxt-vite"
 	],
 
 	tailwindcss: {
@@ -60,7 +57,7 @@ export default {
 	},
 
 	// Modules: https://go.nuxtjs.dev/config-modules
-	modules: ["@nuxtjs/sitemap", "@nuxtjs/axios", "@nuxtjs/robots", ["vue-scrollto/nuxt", { duration: 900 }]],
+	modules: ["@nuxtjs/sitemap", "@nuxtjs/robots", ["vue-scrollto/nuxt", { duration: 900 }]],
 
 	robots: {
 		UserAgent: "*",
@@ -74,13 +71,6 @@ export default {
 				"postcss-nested": {},
 				"postcss-import": {}
 			}
-		},
-		extend(config, ctx) {
-			config.module.rules.push({
-				test: /\.(glsl|vs|fs|vert|frag)$/,
-				exclude: /node_modules/,
-				use: ["raw-loader"]
-			})
 		},
 		generate: {
 			fallback: "404.html"

@@ -54,7 +54,7 @@
 	}
 
 	p {
-		@apply font-inter text-neutral-light text-2xl;
+		@apply font-inter text-neutral-light text-base;
 	}
 
 	section {

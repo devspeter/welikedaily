@@ -48,7 +48,7 @@ module.exports = {
 		},
 		extend: {
 			colors: {
-				black: "#131313",
+				black: "#231A36",
 				orange: "#FBC6A4",
 				purple: "#A685E2",
 				red: "#FF7171",
@@ -56,7 +56,7 @@ module.exports = {
 				neutral: {
 					dark: "#131313",
 					default: "#414042",
-					light: "#7c7c7c"
+					light: "#425466"
 				}
 			},
 			margin: {
