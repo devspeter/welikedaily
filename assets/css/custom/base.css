@@ -1,5 +1,5 @@
-@font-face {
-	font-family: "Poppinssemi";
+/* @font-face {
+	font-family: "Poppins";
 	font-style: normal;
 	font-weight: 600;
 	font-display: swap;
@@ -19,8 +19,8 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: url("../../fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
-}
+	src: url("/fonts/Inter-VariableFont_slnt.ttf") format("truetype");
+} */
 
 @layer base {
 	body {
@@ -37,7 +37,7 @@
 
 	h2,
 	.h2 {
-		@apply font-semi font-semibold text-4xl;
+		@apply font-poppins font-semibold text-4xl;
 		@screen md {
 			@apply text-3xl;
 		}
@@ -45,12 +45,12 @@
 
 	h3,
 	.h3 {
-		@apply font-semi font-semibold text-2xl;
+		@apply font-poppins font-semibold text-2xl;
 	}
 
 	h4,
 	.h4 {
-		@apply font-inter text-lg text-white;
+		@apply font-poppins font-semibold text-lg text-black;
 	}
 
 	p {

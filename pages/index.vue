@@ -2,6 +2,7 @@
 	<div>
 		<Stage />
 		<Accounts />
+		<Owners />
 		<Benefits />
 		<!-- <Howdoesitwork /> -->
 		<Submit />

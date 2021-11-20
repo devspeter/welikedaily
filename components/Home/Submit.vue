@@ -1,5 +1,5 @@
 <template>
-	<section id="submit" class="bg-gray-50">
+	<section id="submit" class="bg-bgblue py-36">
 		<div class="flex flex-col items-center justify-center w-full mb-20">
 			<h2>Ready to share your work?</h2>
 			<p class="mt-2">Submit your work now and we will get back to you when your work is selected.</p>

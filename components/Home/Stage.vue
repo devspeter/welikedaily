@@ -1,11 +1,14 @@
 <template>
 	<div class="welike-stage">
 		<div class="welike-stage-bg"></div>
-		<div class="welike-stage-content container px-4 sm:px-6 lg:px-8 h-full">
+		<div class="welike-stage-content container px-4 sm:px-6 lg:px-8 flex flex-col">
 			<div class="flex justify-center h-full">
 				<div class="lg:w-3/5 flex flex-col justify-center h-full">
-					<div class="">
-						<h1>SHARE YOUR WORK ON INSTAGRAM</h1>
+					<div class="welike-stage-content-text">
+						<h1>
+							SHARE YOUR WORK<br />
+							ON INSTAGRAM
+						</h1>
 						<p class="p-4">Grow your follower base and reach potential creatives and clients.</p>
 						<button v-scroll-to="'#submit'" type="button" class="mt-10 relative inline-flex items-center px-12 py-2 border border-transparent rounded-full text-white bg-black hover:shadow-xl transition duration-500 ease-in-out ">
 							<span class="mr-3">Submit now</span>
@@ -42,12 +45,29 @@
 </template>
 
 <script>
-export default {}
+export default {
+	data() {
+		return {
+			swiperOption: {
+				slidesPerView: 4,
+				loop: true,
+				speed: 2000,
+				pagination: {
+					el: ".swiper-pagination"
+				},
+				autoplay: {
+					delay: 1000
+				}
+			}
+		}
+	}
+}
 </script>
 
 <style lang="postcss" scoped>
 .welike-stage {
-	@apply relative h-screen;
+	@apply relative;
+	height: 70vh;
 	&-bg {
 		@apply absolute z-0 w-full;
 		background-image: url("./assets/images/stagebg.png");
@@ -59,6 +79,9 @@ export default {}
 	}
 	&-content {
 		@apply relative z-20;
+		&-text {
+			margin-top: 40vh;
+		}
 	}
 	&-windows {
 		@apply relative;
@@ -70,7 +93,7 @@ export default {}
 		transform-style: flat;
 		&-1 {
 			position: absolute;
-			top: 50px;
+			top: 15vh;
 			left: 100px;
 		}
 		&-2 {

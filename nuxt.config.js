@@ -9,15 +9,22 @@ export default {
 			lang: "en"
 		},
 		meta: [{ charset: "utf-8" }, { name: "viewport", content: "width=device-width, initial-scale=1" }, { hid: "description", name: "description", content: "" }, { name: "format-detection", content: "telephone=no" }],
-		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }, { src: "https://cdn.polyfill.io/v2/polyfill.js?features=fetch" }],
+		link: [
+			{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+			{ src: "https://cdn.polyfill.io/v2/polyfill.js?features=fetch" },
+			{
+				rel: "stylesheet",
+				href: "https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@600;700&display=swap"
+			}
+		],
 		script: []
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: ["~/assets/css/tailwind.css"],
+	css: ["~/assets/css/tailwind.css", "swiper/swiper-bundle.min.css"],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-	plugins: [],
+	plugins: [{ src: "@/plugins/swiper.js", ssr: false }],
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
 	components: ["~/components/Ui", "~/components/Home"],

@@ -37,13 +37,12 @@ module.exports = {
 		},
 		fontFamily: {
 			poppins: ["Poppins, sans-serif", ...defaultTheme.fontFamily.sans],
-			semi: ["Poppinssemi, sans-serif", ...defaultTheme.fontFamily.sans],
 			inter: ["Inter, sans-serif", ...defaultTheme.fontFamily.sans]
 		},
 		fontWeight: {
 			normal: 400,
 			semibold: 600,
-			bold: 800,
+			bold: 700,
 			extrabold: 800
 		},
 		extend: {
@@ -53,9 +52,10 @@ module.exports = {
 				purple: "#A685E2",
 				red: "#FF7171",
 				blue: "#9FD8DF",
+				bgblue: "#F6F9FC",
 				neutral: {
 					dark: "#131313",
-					default: "#414042",
+					default: "#B2B7BE",
 					light: "#425466"
 				}
 			},
