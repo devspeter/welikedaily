@@ -6,7 +6,11 @@ module.exports = {
 		container: {
 			center: true,
 			padding: {
-				default: "1rem"
+				DEFAULT: "1rem",
+				sm: "2rem",
+				lg: "4rem",
+				xl: "5rem",
+				"2xl": "6rem"
 			}
 		},
 		screens: {
@@ -56,7 +60,10 @@ module.exports = {
 				neutral: {
 					dark: "#131313",
 					default: "#B2B7BE",
-					light: "#425466"
+					light: "#425466",
+					yellow: "#FFCF5A",
+					purple: "#A685E2",
+					pink: "#FF7171"
 				}
 			},
 			margin: {

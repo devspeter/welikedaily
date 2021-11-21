@@ -1,8 +1,8 @@
 <template>
 	<section id="benefits" class="py-36">
 		<div class="container">
-			<div class="flex">
-				<div class="flex flex-col justify-center w-1/3">
+			<div class="lg:flex">
+				<div class="md:flex flex-col justify-center lg:w-1/3">
 					<div class="flex">
 						<h3>
 							Why Creators<br />
@@ -12,10 +12,10 @@
 					</div>
 					<p class="mt-3">Inspire others with your designs.</p>
 				</div>
-				<div class="flex justify-between w-2/3">
-					<div class="w-1/3">
+				<div class="md:flex md:justify-between lg:w-2/3 mt-20 lg:mt-0 space-y-5 md:space-y-0">
+					<div class="md:w-1/3 ">
 						<div class="flow-root">
-							<div class="-mt-6">
+							<div class="md:-mt-6">
 								<div>
 									<span class="inline-flex items-center justify-center p-3">
 										<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -36,9 +36,9 @@
 						</div>
 					</div>
 
-					<div class="w-1/3">
+					<div class="lg:w-1/3">
 						<div class="flow-root">
-							<div class="-mt-6">
+							<div class="md:-mt-6">
 								<div>
 									<span class="inline-flex items-center justify-center p-3">
 										<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -52,9 +52,9 @@
 						</div>
 					</div>
 
-					<div class="w-1/3">
+					<div class="md:w-1/3">
 						<div class="flow-root">
-							<div class="-mt-6">
+							<div class="md:-mt-6">
 								<div>
 									<span class="inline-flex items-center justify-center p-3">
 										<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">

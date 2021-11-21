@@ -5,11 +5,11 @@
 			<div class="flex justify-center h-full">
 				<div class="lg:w-3/5 flex flex-col justify-center h-full">
 					<div class="welike-stage-content-text">
-						<h1>
+						<h1 class="text-3xl lg:text-6xl">
 							SHARE YOUR WORK<br />
 							ON INSTAGRAM
 						</h1>
-						<p class="p-4">Grow your follower base and reach potential creatives and clients.</p>
+						<p class="pt-4">Grow your follower base and reach potential creatives and clients.</p>
 						<button v-scroll-to="'#submit'" type="button" class="mt-10 relative inline-flex items-center px-12 py-2 border border-transparent rounded-full text-white bg-black hover:shadow-xl transition duration-500 ease-in-out ">
 							<span class="mr-3">Submit now</span>
 							<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,23 +45,7 @@
 </template>
 
 <script>
-export default {
-	data() {
-		return {
-			swiperOption: {
-				slidesPerView: 4,
-				loop: true,
-				speed: 2000,
-				pagination: {
-					el: ".swiper-pagination"
-				},
-				autoplay: {
-					delay: 1000
-				}
-			}
-		}
-	}
-}
+export default {}
 </script>
 
 <style lang="postcss" scoped>

@@ -41,15 +41,15 @@ export default {
 			faqs: [
 				{
 					question: "What happens after I’ve submitted my work?",
-					answer: "well"
+					answer: "After you’ve successfully submitted your work we’ll review your submission. if we see fit on the sellected channel we will publish"
 				},
 				{
 					question: "How should I deliver my project?",
-					answer: "well"
+					answer: "We appreciate it if projects get delivered via one of the following platforms: Instagram, Tik Tok, Awwwards, Behance or Dribbble. Of course links to portfolio websites are also welcome."
 				},
 				{
 					question: "Which Instagram accounts do you manage?",
-					answer: "well"
+					answer: "We manage the following Instagram accounts: @welikeuidesign, @welikewebgl, @welikemotiondesign, @welikethreedy"
 				}
 			]
 		}
