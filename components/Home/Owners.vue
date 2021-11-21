@@ -8,6 +8,7 @@
 					The appreciation must go to you, not to us.
 				</p>
 			</div>
+			<div class="mt-20"></div>
 		</div>
 	</div>
 </template>
