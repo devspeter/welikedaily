@@ -46,6 +46,10 @@ export default {
 				slidesPerView: 4,
 				loop: true,
 				speed: 2000,
+				allowTouchMove: false,
+				slideToClickedSlide: true,
+				preventClicksPropagation: false,
+				preventClicks: false,
 				pagination: {
 					el: ".swiper-pagination"
 				},
@@ -60,11 +64,11 @@ export default {
 					},
 					// when window width is >= 480px
 					480: {
-						slidesPerView: 3,
+						slidesPerView: 2,
 						spaceBetween: 30
 					},
 					// when window width is >= 640px
-					640: {
+					940: {
 						slidesPerView: 4,
 						spaceBetween: 40
 					}

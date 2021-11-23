@@ -9,28 +9,28 @@
 				</p>
 			</div>
 			<div class="mt-20 flex">
-				<div class="w-1/3 relative">
-					<div class="bg-neutral-purple w-24 h-24 flex justify-center items-center rounded-full welike_owners-people-1">
+				<div class="md:w-1/3 relative">
+					<div class="hidden  bg-neutral-purple w-24 h-24 md:flex justify-center items-center rounded-full welike_owners-people-1">
 						<img class="w-24 h-24" src="@/assets/images/female1.png" alt="instapost" />
 					</div>
-					<div class="bg-neutral-yellow w-16 h-16 flex justify-center items-center rounded-full welike_owners-people-2">
+					<div class="hidden bg-neutral-yellow w-16 h-16 md:flex justify-center items-center rounded-full welike_owners-people-2">
 						<img class="w-16 h-16" src="@/assets/images/male1.png" alt="instapost" />
 					</div>
-					<div class="bg-neutral-pink w-20 h-20 flex justify-center items-center rounded-full welike_owners-people-3">
+					<div class="hidden bg-neutral-pink w-20 h-20 md:flex justify-center items-center rounded-full welike_owners-people-3">
 						<img class="w-20 h-20" src="@/assets/images/female2.png" alt="instapost" />
 					</div>
 				</div>
-				<div class="w-1/3 flex items-center justify-center">
-					<img src="@/assets/images/instagrampost.png" alt="instapost" />
+				<div class="md:w-1/3 w-full flex items-center justify-center">
+					<img class="" src="@/assets/images/instagrampost.png" alt="instapost" />
 				</div>
-				<div class="w-1/3 relative">
-					<div class="bg-neutral-pink w-20 h-20 flex justify-center items-center rounded-full welike_owners-people-4">
+				<div class="md:w-1/3 relative">
+					<div class="hidden bg-neutral-pink w-20 h-20 md:flex justify-center items-center rounded-full welike_owners-people-4">
 						<img class="w-20 h-20" src="@/assets/images/male3.png" alt="instapost" />
 					</div>
-					<div class="bg-blue w-16 h-16 flex justify-center items-center rounded-full welike_owners-people-5">
+					<div class="hidden bg-blue w-16 h-16 md:flex justify-center items-center rounded-full welike_owners-people-5">
 						<img class="w-16 h-16" src="@/assets/images/male2.png" alt="instapost" />
 					</div>
-					<div class="bg-black w-24 h-24 flex justify-center items-center rounded-full welike_owners-people-6">
+					<div class="hidden bg-black w-24 h-24 md:flex justify-center items-center rounded-full welike_owners-people-6">
 						<img class="w-24 h-24" src="@/assets/images/female3.png" alt="instapost" />
 					</div>
 				</div>
