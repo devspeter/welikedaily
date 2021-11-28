@@ -1,6 +1,7 @@
 <template>
 	<div class="container mt-48">
 		<div class="wrap space-y-10 my-20">
+			<div class="underline cursor-pointer" @click="$router.go(-1)">Go back !</div>
 			<h1>Privacy Policy</h1>
 			<p>In this privacy policy you’ll read about the information we collect when you make use of our website and service. At this moment we collect two types of information:</p>
 			<h2>Non-personally identifiable information</h2>
