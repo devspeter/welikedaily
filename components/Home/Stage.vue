@@ -9,7 +9,7 @@
 							SHARE YOUR WORK<br />
 							ON INSTAGRAM
 						</h1>
-						<p class="pt-4">Grow your follower base and reach potential creatives and clients.</p>
+						<p class="pt-4">Grow your follower base and reach more potential creatives and clients.</p>
 						<button v-scroll-to="'#submit'" type="button" class="mt-10 relative inline-flex items-center px-12 py-2 border border-transparent rounded-full text-white bg-black hover:shadow-xl transition duration-500 ease-in-out ">
 							<span class="mr-3">Submit now</span>
 							<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,9 +26,9 @@
 				<div class="lg:w-2/5 relative h-full">
 					<div class="welike-stage-windows hidden lg:block">
 						<div class="welike-stage-windows-1">
-							<img src="@/assets/images/profile.png" alt="insta profile" />
+							<img width="w-full" src="@/assets/images/igbg.png" alt="insta profile" />
 						</div>
-						<div class="welike-stage-windows-2">
+						<!-- <div class="welike-stage-windows-2">
 							<img src="@/assets/images/question.png" alt="insta question" />
 						</div>
 						<div class="welike-stage-windows-3">
@@ -36,7 +36,7 @@
 						</div>
 						<div class="welike-stage-windows-4">
 							<img src="@/assets/images/likes.png" alt="insta likes" />
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -52,6 +52,7 @@ export default {}
 .welike-stage {
 	@apply relative;
 	height: 70vh;
+	overflow: hidden;
 	&-bg {
 		@apply absolute z-0 w-full;
 		background-image: url("./assets/images/stagebg.png");
@@ -79,24 +80,9 @@ export default {}
 			position: absolute;
 			top: 15vh;
 			left: 100px;
-		}
-		&-2 {
-			position: absolute;
-			z-index: 3;
-			top: 40vh;
-			left: -0px;
-		}
-		&-3 {
-			position: absolute;
-			top: 40vh;
-			z-index: 2;
-			right: -200px;
-		}
-		&-4 {
-			position: absolute;
-			top: 60vh;
-			right: -37px;
-			z-index: 4;
+			img {
+				max-width: unset;
+			}
 		}
 	}
 }
