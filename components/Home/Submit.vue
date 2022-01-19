@@ -5,7 +5,7 @@
 			<p class="mt-2">Submit your work now and we will get back to you when your work is selected.</p>
 		</div>
 		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-			<form accept-charset="UTF-8" method="POST" action="https://www.formbackend.com/f/aeca0b326c040d66">
+			<form accept-charset="UTF-8" method="POST" action="https://formspree.io/f/xbjwdano">
 				<div class="space-y-5">
 					<div class="">
 						<label for="fullname" class="block text-lg text-gray-900">Name</label>
@@ -69,17 +69,6 @@
 							</label>
 						</div>
 						<div class="md:flex md:space-x-5 space-y-3 md:space-y-0">
-							<label @click="selectChannel(3)" class="md:w-1/2  relative block rounded-full border border-gray-300 bg-white px-6 py-3 cursor-pointer sm:flex sm:justify-between opacity-50 transition duration-500" :class="{ 'opacity-100 bg-neutral-dark': activeChannel == 3 }">
-								<input type="radio" name="socialchannels" v-model="socialChannel" value="welikemotiondesign" class="sr-only" aria-labelledby="welikemotiondesign" aria-describedby="welikemotiondesign" />
-								<div class="flex items-center">
-									<div class="text-sm">
-										<p id="welikemotiondesign" class="text-lg transition duration-500" :class="{ 'text-white': activeChannel == 3 }">
-											@welikemotiondesign
-										</p>
-									</div>
-								</div>
-							</label>
-
 							<label @click="selectChannel(4)" class="md:w-1/2 relative block rounded-full border border-gray-300 bg-white px-6 py-3 cursor-pointer sm:flex sm:justify-between opacity-50 transition duration-500" :class="{ 'opacity-100 bg-purple': activeChannel == 4 }">
 								<input type="radio" name="socialchannels" v-model="socialChannel" value="welikethreedy" class="sr-only" aria-labelledby="welikethreedy" aria-describedby="welikethreedy" />
 								<div class="flex items-center">

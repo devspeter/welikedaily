@@ -19,12 +19,7 @@
 								<p class="bg-blue py-2 rounded-full text-white">@welikewebgl</p>
 							</a>
 						</div>
-						<div class="swiper-slide">
-							<a href="https://www.instagram.com/welikemotiondesign/" class="w-1/4 text-center" target="_blank">
-								<!-- <img class="w-24 h-auto" src="@/assets/images/welikemotiondesign.svg" /> -->
-								<p class="bg-black py-2 rounded-full text-white">@welikemotiondesign</p>
-							</a>
-						</div>
+
 						<div class="swiper-slide">
 							<a href="https://www.instagram.com/welikethreedy/" class="w-1/4 text-center" target="_blank">
 								<!-- <img class="w-24 h-auto" src="@/assets/images/welike3d.svg" /> -->
@@ -43,7 +38,7 @@ export default {
 	data() {
 		return {
 			swiperOption: {
-				slidesPerView: 4,
+				slidesPerView: 3,
 				loop: true,
 				speed: 2000,
 				allowTouchMove: false,
@@ -69,7 +64,7 @@ export default {
 					},
 					// when window width is >= 640px
 					940: {
-						slidesPerView: 4,
+						slidesPerView: 3,
 						spaceBetween: 40
 					}
 				}
