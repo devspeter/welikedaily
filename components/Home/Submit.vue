@@ -76,7 +76,7 @@
 export default {
 	data() {
 		return {
-			activeChannel: 1,
+			activeChannel: 2,
 			socialChannel: "welikeuidesign"
 		}
 	},
