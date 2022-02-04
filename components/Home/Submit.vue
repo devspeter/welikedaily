@@ -46,16 +46,6 @@
 
 					<div class="space-y-4">
 						<div class="md:flex  md:space-x-5 space-y-3 md:space-y-0">
-							<label @click="selectChannel(1)" class="md:w-1/2 relative block rounded-full border border-gray-300 bg-white text-black px-6 py-3 cursor-pointer sm:flex sm:justify-between opacity-50 transition duration-500" :class="{ 'opacity-100 bg-red': activeChannel == 1 }">
-								<input type="radio" name="socialchannels" v-model="socialChannel" value="welikeuidesign" class="sr-only" aria-labelledby="welikeuidesign" aria-describedby="welikeuidesign" />
-								<div class="flex items-center">
-									<div class="text-sm">
-										<p id="welikeuidesign" class="text-lg transition duration-500" :class="{ 'text-white': activeChannel == 1 }">
-											@welikeuidesign
-										</p>
-									</div>
-								</div>
-							</label>
 
 							<label @click="selectChannel(2)" class="md:w-1/2 relative block rounded-full border border-gray-300 bg-white px-6 py-3 cursor-pointer sm:flex sm:justify-between opacity-50 transition duration-500 " :class="{ 'opacity-100 bg-blue': activeChannel == 2 }">
 								<input type="radio" name="socialchannels" v-model="socialChannel" value="welikewebgl" class="sr-only" aria-labelledby="welikewebgl" aria-describedby="welikewebgl" />
@@ -68,18 +58,7 @@
 								</div>
 							</label>
 						</div>
-						<div class="md:flex md:space-x-5 space-y-3 md:space-y-0">
-							<label @click="selectChannel(4)" class="md:w-1/2 relative block rounded-full border border-gray-300 bg-white px-6 py-3 cursor-pointer sm:flex sm:justify-between opacity-50 transition duration-500" :class="{ 'opacity-100 bg-purple': activeChannel == 4 }">
-								<input type="radio" name="socialchannels" v-model="socialChannel" value="welikethreedy" class="sr-only" aria-labelledby="welikethreedy" aria-describedby="welikethreedy" />
-								<div class="flex items-center">
-									<div class="text-sm">
-										<p id="welikethreedy" class="text-lg transition duration-500" :class="{ 'text-white': activeChannel == 4 }">
-											@welikethreedy
-										</p>
-									</div>
-								</div>
-							</label>
-						</div>
+
 					</div>
 				</div>
 

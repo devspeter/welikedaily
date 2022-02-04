@@ -7,23 +7,11 @@
 			<div class="w-full mt-20">
 				<div v-swiper="swiperOption">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<a href="https://www.instagram.com/welikeuidesign/" class="w-1/4 text-center" target="_blank">
-								<!-- <img class="w-24 h-auto" src="@/assets/images/welikeuidesign.svg" /> -->
-								<p class="bg-red py-2 rounded-full text-white">@welikeuidesign</p>
-							</a>
-						</div>
+
 						<div class="swiper-slide">
 							<a href="https://www.instagram.com/welikewebgl/" class="w-1/4 text-center" target="_blank">
 								<!-- <img class="w-24 h-auto" src="@/assets/images/welikewebgl.svg" /> -->
 								<p class="bg-blue py-2 rounded-full text-white">@welikewebgl</p>
-							</a>
-						</div>
-
-						<div class="swiper-slide">
-							<a href="https://www.instagram.com/welikethreedy/" class="w-1/4 text-center" target="_blank">
-								<!-- <img class="w-24 h-auto" src="@/assets/images/welike3d.svg" /> -->
-								<p class="bg-purple py-2 rounded-full text-white">@welikethreedy</p>
 							</a>
 						</div>
 					</div>
